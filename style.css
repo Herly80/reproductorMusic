@@ -131,7 +131,7 @@ body {
     width: 90px;
     height: 150px;
     top: 200px;
-    left: 500px;
+    left: 400px;
     z-index: 1;
     animation: animacion 5s linear infinite;
     animation-delay: calc(1s * var(--i));
@@ -140,7 +140,7 @@ body {
     width: 150px;
     height: 80px;
     bottom: 270px;
-    right: 450px;
+    right: 350px;
     z-index: 1;
     animation: animacion 5s linear infinite;
     animation-delay: calc(1s * var(--i));
