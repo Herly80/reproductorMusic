@@ -131,7 +131,7 @@ body {
     width: 90px;
     height: 150px;
     top: 200px;
-    left: 400px;
+    left: 420px;
     z-index: 1;
     animation: animacion 5s linear infinite;
     animation-delay: calc(1s * var(--i));
@@ -140,18 +140,12 @@ body {
     width: 150px;
     height: 80px;
     bottom: 270px;
-    right: 350px;
+    right: 370px;
     z-index: 1;
     animation: animacion 5s linear infinite;
     animation-delay: calc(1s * var(--i));
 }
-.cuadrado:nth-child(3) {
-    width: 100px;
-    height: 80px;
-    bottom: 10px;
-    right: 50%;
-    z-index: -1;
-}
+
 
 @keyframes animacion {
    0% 100% {
